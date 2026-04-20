@@ -1,0 +1,1178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* header styles start */
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 100px;
+    position: sticky;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+nav ul li {
+    list-style: none;
+    display: flex;
+}
+.hideMenu{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.showMenu{
+    color: #2639ed;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* header styles end */
+
+/* hero section styles start */
+.hero-Section{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;;
+    height: 600px;
+}
+.hero-col{
+    width: 44%;
+}
+.hero-text{
+    padding: 150px 20px 0 100px;
+    position: relative;
+}
+.hero-heading{
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.hero-para{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    display: block;
+    background-color: #2639ed;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 12px 35px;
+    transition: 0.3s;
+}
+.btn-primary:hover{
+    background-color: rgb(91, 177, 253);
+}
+.carpet{
+    position: absolute;
+    bottom: 135px;
+    left: 45px;
+    z-index: -1;
+    width: 300px;
+}
+.hero-img-div{
+    width: 47.6%;
+    position: relative;
+}
+.blueCircle{
+    width: 115px;
+    position: absolute;
+    top: 0;
+    left: -58px;
+    z-index: -1;
+}
+.group{
+    width: 88%;
+    height: 400px;
+}
+.rectangle1{
+    width: 120px;
+    position: absolute;
+    bottom: 75px;
+    right: 140px;
+    z-index: -1;
+}
+/* hero section styles end */
+
+/* client section start */
+.our-client{
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px 100px;
+}
+.client-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-text{
+    width: 30%;
+    height: 100px;
+}
+.client-heading{
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+.client-para{
+    font-size: 16px;
+}
+.client-col{
+    margin-top: 20px;
+    padding-left: 30px;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.client-col .logo-img:last-child{
+    margin-top: 20px;
+}
+/* client section end */
+
+/* business section start */
+.business{
+    margin-top: 90px;
+    width: 100%;
+    padding: 8px 100px;
+    position: relative;
+}
+.business-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.business-col{
+    width: 30%;
+}
+.business-col:first-child{
+    height: 50%;
+    margin-top: 250px;
+}
+.help-business{
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+.business-para{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.business-col:last-child{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.idea-plan{
+    padding: 35px 10px;
+    background-color: white;
+    width: 48%;
+    height: 45%;
+    margin-bottom: 18px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 3px 20px 0px rgb(231, 231, 231);
+}
+.idea-plan:first-child{
+    margin-top: 50px;
+}
+.idea-plan:last-child{
+    margin-top: -50px;
+}
+.idea-img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 0px auto 15px auto;
+    background-color: rgb(191, 235, 253);
+    align-items: center;
+}
+.dev-img{
+    background-color: rgb(253, 225, 230);
+}
+.fin-plan-img{
+    background-color: rgb(253, 244, 226);
+}
+.market-analysis{
+    background-color: rgb(201, 253, 201);
+}
+.bgImg-1{
+    width: 73%;
+    height: 29rem;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: -1;
+}
+.bgImg-2{
+    width: 140px;
+    height: 125px;
+    position: absolute;
+    top: 210px;
+    left: 70px;
+    z-index: -1;
+}
+.bgImg-carpet{
+    width: 300px;
+    position: absolute;
+    top: 493px;
+    left: 120px;
+    z-index: -1;
+}
+.bgImg-ring{
+    position: absolute;
+    bottom: 10px;
+    right: 102px;
+    z-index: -1;
+}
+/* business section end */
+
+/* digital start */
+.digital{
+    width: 100%;
+    margin-top: 90px;
+    padding: 10px 100px;
+}
+.digital-div{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.digital-img{
+    width: 50%;
+}
+.digi-btn{
+    position: absolute;
+    top: 135px;
+    left: 220px;
+}
+.digi-round{
+    position: absolute;
+    bottom: -7px;
+    left: 405px;
+    z-index: -1;
+}
+.digital-text{
+    width: 48%;
+    padding: 85px 0 0 30px;
+}
+.digital-text h2{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.digital-text p{
+    line-height: 1.8;
+}
+.digital-text img{
+    position: absolute;
+    top: 60px;
+    left: 560px;
+    z-index: -1;
+}
+/* digital end */
+
+/* happy-client start */
+.happy-client{
+    margin-top: 90px;
+    padding: 10px 100px;
+    width: 100%;
+}
+.happy-client h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+    font-size: 35px;
+}
+.happy-client .happy-para{
+    text-align: center;
+    font-size: 18px;
+}
+.happy-row{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.happy-col{
+    width: 32%;
+    height: 350px;
+}
+.happy-matthew{
+    width: 380px;
+    height: 380px;
+}
+.happy-bg1{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 160px;
+    z-index: -1;
+}
+.happy-round{
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    z-index: -1;
+}
+.happy-text{
+    padding: 100px 0 0 20px;
+}
+.happy-text h3{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.happy-text p{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.small-dot-row{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.small-dots{
+    width: 16px;
+    height: 16px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+.small-dots:first-child{
+    background-color: blue;
+}
+.happy-people{
+    width: 100%;
+}
+.happy-circle{
+    width: 180px;
+    position: absolute;
+    top: 100px;
+    right: 140px;
+    z-index: -1;
+}
+/* Happy Client End */
+
+/* Newsletter Section start */
+.newsletter{
+    width: 100%;
+    margin-top: 90px;
+    padding: 20px 100px;
+}
+.newsletter-div{
+    margin: 2px auto;
+    width: 95%;
+    border-radius: 58px;
+    background-color: rgb(207, 241, 255);
+    height: 235px;
+    padding: 30px;
+    position: relative;
+}
+.newsletterbg1{
+    width: 180px;
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    z-index: -1;
+}
+.newsletterbg2{
+    width: 200px;
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    z-index: -1;
+}
+.subscribe-div{
+    padding: 40px 0 0 32px;
+}
+.subscribe{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+.newsletterimg{
+    position: absolute;
+    top: 0;
+    width: 400px;
+    right: 0;
+}
+.newsletter-form{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    background-color: white;
+    width: 390px;
+    height: 55px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px rgb(94, 94, 255);
+}
+.form-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter-form input{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+.newsletter-form button{
+    background-color: #2639ed;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+/* Newsletter End */
+
+/* Footer start */
+footer{
+    margin-top: 90px;
+    padding: 20px 100px;
+    width: 100%;
+    height: 370px;
+}
+.footer-div{
+    border-top: 1px solid silver;
+    border-bottom: 0.5px solid rgb(226, 225, 225);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px 0 50px 0;
+}
+.logo-div{
+    margin-top: 40px;
+}
+.logo{
+    font-size: 32px;
+    color: #2639ed;
+}
+.logo:last-child{
+    color: rgb(235, 3, 80);
+}
+.footer-col{
+    width: 15%;
+    padding: 20px 0;
+}
+.footer-col:first-child{
+    width: 33%;
+}
+.footer-para{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.footer-col h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 26px;
+}
+.footer-col ul li{
+    list-style: none;
+    line-height: 1.5;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.copyright{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+/* Footer end */
+
+@media (max-width: 840px) {
+    header{
+        height: 100px;
+        padding: 10px 20px 0 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+    nav{
+        height:100vh;
+        width: 210px;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: #2639ed;
+        transition: 0.7s;
+        padding: 20px 0 0 50px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 60px;
+        align-items: flex-start;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .hideMenu{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .showMenu{
+        display: block;
+    }
+    .hero-Section{
+        padding-top: 50px;
+        width: 100%;;
+        height: 500px;
+    }
+    .hero-col{
+        width: 44%;
+    }
+    .hero-text{
+        padding: 95px 20px 0 50px;
+    }
+    .hero-heading{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .hero-para{
+        font-size: 13px;
+    }
+    .btn-primary{
+        padding: 10px 20px;
+    }
+    .carpet{
+        width: 200px;
+        bottom: 70px;
+        left: -10px;
+    }
+    .hero-img-div{
+        width: 47.6%;
+    }
+    .blueCircle{
+        width: 120px;
+        top: 0;
+        left: -40px;
+    }
+    .group{
+        width: 93%;
+        height: 70%;
+    }
+    .rectangle1{
+        width: 100px;
+        bottom: 65px;
+        right: 100px;
+    }
+    
+    /* client section start */
+    .our-client{
+        margin-top: 50px;
+        width: 100%;
+        padding: 10px 50px;
+    }
+    .client-text{
+        width: 28%;
+        height: 100px;
+    }
+    .client-heading{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .client-para{
+        font-size: 13px;
+    }
+    .client-col{
+        margin-top: 5px;
+        padding-left: 20px;
+        width: 72%;
+        height: 100px;
+    }
+    .logo-img{
+        width: 20%;
+    }
+    .logo-img img{
+        width: 100%;
+    }
+    .client-col .logo-img:last-child{
+        margin-top: 15px;
+    }
+    /* client section end */
+
+    /* business section start */
+    .business{
+        padding: 8px 50px;
+    }
+    .business-col{
+        width: 20%;
+    }
+    .business-col:first-child{
+        width: 30%;
+        margin-top: 250px;
+    }
+    .help-business{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .business-para{
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .business-col:last-child{
+        width: 60%;
+        padding-right: 0px;
+    }
+    .idea-plan{
+        padding: 20px 10px;
+        width: 48%;
+        height: 200px;
+    }
+    .idea-plan:first-child{
+        margin-top: 60px;
+    }
+    .idea-plan:last-child{
+        margin-top: -60px;
+    }
+    .idea-img{
+        padding: 5px;
+        width: 70px;
+        height: 70px;
+        margin: 0px auto 15px auto;
+    }
+    .idea-img img{
+        width: 100%;
+    }
+    .idea-plan h4{
+        margin-bottom: 8px;
+        font-size: 17px;
+    }
+    .idea-plan p{
+        font-size: 11px;
+    }
+    .bgImg-1{
+        width: 35rem;
+        height: 21rem;
+    }
+    .bgImg-2{
+        width: 100px;
+        height: 100px;
+        top: 210px;
+        left: 20px;
+    }
+    .bgImg-carpet{
+        width: 300px;
+        top: 400px;
+        left: 90px;
+    }
+    .bgImg-ring{
+        bottom: 0px;
+        right: 102px;
+    }
+    /* business section end */
+    
+    /* digital start */
+    .digital{
+        width: 100%;
+        margin-top: 90px;
+        padding: 10px 50px;
+    }
+    .digital-img{
+        width: 50%;
+        border-radius: 30px;
+    }
+    .digi-btn{
+        width: 70px;
+        top: 80px;
+        left: 140px;
+    }
+    .digi-round{
+        width: 100px;
+        bottom: 10px;
+        left: 250px;
+    }
+    .digital-text{
+        width: 48%;
+        padding: 85px 0 0 20px;
+    }
+    .digital-text h2{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .digital-text p{
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    .digital-text img{
+        width: 120px;
+        left: 380px;
+    }
+    /* digital end */
+    /* happy-client start */
+    .happy-client{
+        margin-top: 90px;
+        padding: 10px 0 0 20px;
+    }
+    .happy-col{
+        width: 25%;
+    }
+    .happy-matthew{
+        width: 300px;
+        height: 300px;
+    }
+    .happy-bg1{
+        width: 160px;
+        left: 120px;
+    }
+    .happy-round{
+        width: 90px;
+        bottom: 60px;
+    }
+    .happy-text{
+        padding: 60px 0 0 12px;
+    }
+    .happy-text h3{
+        margin-bottom: 15px;
+    }
+    .happy-text p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .small-dot-row{
+        width: 130px;
+    }
+    .small-dots{
+        width: 13px;
+        height: 13px;
+    }
+    .happy-people{
+        margin: 20px 0px 0px -30px;
+    }
+    .happy-circle{
+        width: 140px;
+        top: 60px;
+        right: 80px;
+    }
+    /* Happy Client End */
+    /* Newsletter Section start */
+    .newsletter{
+        padding: 10px 40px;
+    }
+    .newsletter-div{
+        width: 99%;
+        border-radius: 58px;
+        height: 206px;
+        padding: 10px;
+    }
+    .newsletterbg1{
+        width: 130px;
+        bottom: -25px;
+        left: -25px;
+        z-index: -1;
+    }
+    .newsletterbg2{
+        width: 180px;
+        top: -20px;
+        right: -15px;
+    }
+    .subscribe-div{
+        padding: 45px 0 0 15px;
+    }
+    .subscribe{
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+    .newsletterimg{
+        top: 0;
+        width: 350px;
+        right: 0;
+    }
+    .newsletter-form{
+        top: 75px;
+        right: 80px;
+        width: 310px;
+        height: 55px;
+        padding: 10px;
+    }
+    .newsletter-form input{
+        padding: 8px;
+        font-size: 13px;
+    }
+    .newsletter-form button{
+        padding: 8px 12px;
+        border-radius: 15px;
+        margin-left:-10px;
+    }
+    /* Newsletter End */
+    /* Footer start */
+    footer{
+        margin-top: 50px;
+        padding: 20px 50px;
+        width: 100%;
+        height: 370px;
+    }
+    .logo-div{
+        margin-top: 25px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    .footer-para{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .footer-col h3{
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+    .footer-col ul li{
+        line-height: 1;
+    }
+    /* Footer end */
+}
+
+@media (max-width: 440px) {
+/* header Styles */
+    header{
+        height: 80px;
+        padding: 20px 20px 0 30px;
+    }
+    nav{
+        height: 100%;
+        width: 150px;
+        padding: 20px;
+    }
+/* header styles  end*/
+
+/* hero styles */
+    .hero-Section{
+        text-align: center;
+        align-items: center;
+        padding-top: 30px;
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+        height: 500px;
+        margin-top: -70px;
+    }
+    .hero-col{
+        width: 100%;
+    }
+    .hero-text{
+        padding: 150px 20px 0 40px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img-src/group.png);
+        background-position: center;
+        object-fit: cover;
+        height: 100%;
+        color: white; 
+    }
+    .hero-para{
+        margin-bottom: 20px;
+    }
+    .btn-primary{
+        display: block;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+    .hero-img-div{
+        display: none;
+    }
+    .carpet{
+        display: none;
+    }
+    .hero-img-div{
+        display: none;
+    }
+    .blueCircle{
+        display: none;
+    }
+    .group{
+        display: none;
+    }
+    .rectangle1{
+        display: none;
+    }
+/* hero section end */
+
+/* client section start */
+    .our-client{
+        padding: 20px 30px;
+        border-top: 1px solid silver;
+    }
+    .client-row{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .client-text{
+        width: 100%;
+        height: 100px;
+    }
+    .client-heading{
+        font-size: 38px;
+        margin-bottom: 5px;
+    }
+    .client-para{
+        font-size: 13px;
+    }
+    .client-col{
+        margin-top: -35px;
+        padding-left: 0px;
+        width: 100%;
+        align-items: center !important;
+    }
+/* client section end */
+
+/* business section start */
+    .business{
+        margin-top: 0px;
+        width: 100%;
+        padding: 15px 20px;
+        border-top: 1px solid silver;
+    }
+    .business-row{
+        width: 100%;
+        display: block;
+    }
+    .business-col{
+        width: 100%;
+    }
+    .business-col:first-child{
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        margin: 0 0 25px 0;
+    }
+    .help-business{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .business-para{
+        font-size: 13px;
+        line-height: 1;
+    }
+    .business-col:last-child{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 0px;
+    }
+    .idea-plan{
+        padding: 24px 8px;
+        width: 48.5%;
+        height: 45%;
+        margin-bottom: 15px;
+    }
+    .idea-plan h4{
+        margin-bottom: 8px;
+        font-size: 14px;
+        word-wrap: unset;
+    }
+    .idea-plan:first-child{
+        margin-top: unset;
+    }
+    .idea-plan:last-child{
+        margin-top: unset;
+    }
+    .idea-img{
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        margin: 0px auto 12px auto;
+    }
+    .bgImg-1{
+        display: none;
+    }
+    .bgImg-2{
+        display: none;
+    }
+    .bgImg-carpet{
+        display: none;
+    }
+    .bgImg-ring{
+        display: none;
+    }
+/* business section end */
+
+/* digital start */
+    .digital{
+        width: 100%;
+        margin-top: 30px;
+        padding: 15px 20px;
+        border-top: 1px solid silver;
+    }
+    .digital-div{
+        width: 100%;
+        display: block;
+    }
+    .digital-img{
+        width: 100%;
+    }
+    .digi-btn{
+        display: none;
+    }
+    .digi-round{
+        display: none;
+    }
+    .digital-text{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .digital-text h2{
+        margin-bottom: 8px;
+        font-size: 25px;
+    }
+    .digital-text p{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .digital-text img{
+        position: absolute;
+        top: 60px;
+        left: 560px;
+    }
+/* digital end */
+
+/* happy-client start */
+    .happy-client{
+        margin-top: 40px;
+        padding: 50px 20px 30px 30px;
+        border-top: 1px solid silver;
+    }
+    .happy-client h1{
+        text-align: left;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .happy-client .happy-para{
+        font-size: 14px;
+        text-align: left;
+    }
+    .happy-row{
+        margin-top: 20px;
+        display: block;
+    }
+    .happy-col{
+        width: 100%;
+        height: 180px;
+    }
+    .happy-matthew{
+        width: 180px;
+        height: 180px;
+    }
+    .happy-bg1{
+        display: none;
+    }
+    .happy-round{
+        display: none;
+    }
+    .happy-text{
+        padding: 10px 0 0 0;
+        margin-top: unset;
+        height: unset;
+    }
+    .happy-text h3{
+        margin-bottom: 5px;
+    }
+    .happy-text p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .small-dot-row{
+        width: 120px;
+    }
+    .small-dots{
+        width: 10px;
+        height: 10px;
+    }
+    .happy-people{
+        width: 160px;
+        margin-left: 8px;
+    }
+    .happy-circle{
+        display: none;
+    }
+/* Happy Client End */
+
+/* Newsletter Section start */
+    .newsletter{
+        width: 100%;
+        margin-top: 40px;
+        padding: 30px 30px;
+        border-top: 1px solid silver;
+    }
+    .newsletter-div{
+        margin: 2px auto;
+        width: 99%;
+        height: 200px;
+        padding: 10px;
+    }
+    .newsletterbg1{
+        display: none;
+    }
+    .newsletterbg2{
+        display: none;
+    }
+    .subscribe-div{
+        padding: 40px 0 0 32px;
+    }
+    .subscribe{
+        text-transform: capitalize;
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .newsletterimg{
+        position: absolute;
+        top: 0;
+        width: 400px;
+        right: 0;
+    }
+    .newsletter-form{
+        position: absolute;
+        top: 90px;
+        right: 100px;
+        width: 390px;
+        height: 55px;
+        border-radius: 25px;
+        padding: 10px;
+    }
+    .newsletter-form input{
+        padding: 10px;
+        border: none;
+        font-size: 13px;
+    }
+    .newsletter-form button{
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-left: 30px;
+    }
+/* Newsletter End */
+}
